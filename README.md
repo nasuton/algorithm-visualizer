@@ -7,6 +7,10 @@
 
 [Windows版をダウンロード](https://github.com/nasuton/algorithm-visualizer/releases/download/v0.1.0/algorithm-visualizer-v0.1.0-windows-x64.zip) · [リリース一覧](https://github.com/nasuton/algorithm-visualizer/releases) · [ソースコード](https://github.com/nasuton/algorithm-visualizer)
 
+## 動作デモ
+
+![8種類のソートの動作デモ](docs/demo.gif)
+
 ## この作品で取り組んだこと
 
 - ソート処理を独立したクラスに分け、SFMLの描画処理から切り離す。
