@@ -1,0 +1,25 @@
+Algorithm Visualizer v0.1.0 / Windows x64
+
+起動
+ZIP全体を展開し、algorithm_visualization.exe を実行してください。
+ウィンドウにフォーカスを合わせてキーを押します。Enterは不要です。
+
+1: マージソート    2: バブルソート    3: 挿入ソート    4: 選択ソート
+5: クイックソート  6: ヒープソート    7: カウントソート 8: 基数ソート
+Space: 一時停止 / 再開    R: 最初から
+
+青: 通常    黄色: 処理対象    緑: 完了
+初期配列は固定の10要素、再生間隔は0.25秒です。
+
+必要な環境
+Windows x64、OpenGLを利用できるグラフィックス環境、日本語フォント。
+メイリオ・游ゴシックがない場合は、以下のように日本語フォントを指定できます。
+algorithm_visualization.exe "C:/path/to/font.ttf"
+
+MSVCランタイム不足のエラーが出た場合は、Microsoft公式のx64版を導入してください。
+https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist
+
+詳しい説明: README.md
+利用ライブラリの著作権・ライセンス: THIRD_PARTY_NOTICES.md と licenses/
+このアプリはFreeType Teamの成果を一部利用しています。https://freetype.org
+WindowsフォントおよびMSVCランタイムは同梱していません。
